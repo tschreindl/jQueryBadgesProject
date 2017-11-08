@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
     $.ajax({
         url: 'https://www.codeschool.com/users/tschreindl.json',
         dataType: 'jsonp',
